@@ -39,6 +39,6 @@ class bankomat {
 }
 //tovarna na objekty
 $money_value = new money(array(1,2,5,10,20,50,100,200,500,1000));
-$bankomat = new bankomat(423);
+$bankomat = new bankomat(2225); // Tady se da zmenit na castka
 $bankomat->vyber($money_value->zobrazit());
 ?>
